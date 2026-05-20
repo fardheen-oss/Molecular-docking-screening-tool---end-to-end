@@ -20,25 +20,25 @@ NatDock takes a protein structure and a library of compounds, then automatically
 
 ## Output Structure
 results/
-├── clean_protein.pdb
-├── receptor.pdbqt
-├── top_hits.csv
-├── admet/
-│   ├── admet_results.csv
-│   └── prepared_ligands/
-│       └── {compound}.pdbqt
-├── blind_docking/
-│   ├── {compound}_blind.pdbqt
-│   ├── {compound}_blind.pdb
-│   ├── {compound}_complex.pdb
-│   └── blind_docking_exhaustiveness_N.csv
-├── p2rank/
-│   └── predicted_sites.csv
-└── active_refinement/
-├── {compound}_active.pdbqt
-├── {compound}_active.pdb
-├── {compound}_complex.pdb
-└── active_refinement_results.csv
+clean_protein.pdb
+receptor.pdbqt
+top_hits.csv
+admet/
+admet_results.csv
+prepared_ligands/
+{compound}.pdbqt
+blind_docking/
+{compound}_blind.pdbqt
+{compound}_blind.pdb
+{compound}_complex.pdb
+blind_docking_exhaustiveness_N.csv
+p2rank/
+predicted_sites.csv
+active_refinement/
+{compound}_active.pdbqt
+{compound}_active.pdb
+{compound}_complex.pdb
+active_refinement_results.csv
 ---
 
 ## Requirements
